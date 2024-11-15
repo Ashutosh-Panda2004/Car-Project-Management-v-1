@@ -24,7 +24,7 @@ function Login() {
       localStorage.setItem('token', res.data.token);
 
       // Redirect to the dashboard and reload the page
-      navigate('/dashboard');
+      navigate('/');
       window.location.reload(); // Triggers a full page reload
     } catch (error) {
       console.error('Error during login:', error);
