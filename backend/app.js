@@ -214,6 +214,7 @@ app.use(
       'https://car-project-management-frontend-v-1.onrender.com', // Deployed frontend URL
       'http://localhost:5173', // Allow local development as well
     ],
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     credentials: true,
   })
 );
