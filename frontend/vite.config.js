@@ -15,4 +15,8 @@ export default defineConfig({
       '@api': path.resolve(__dirname, 'src/api'),
     },
   },
+  build: {
+    outDir: 'build', // Directory where production files will be generated
+  },
 });
+
