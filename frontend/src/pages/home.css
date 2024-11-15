@@ -1,0 +1,43 @@
+/* src/home.css */
+
+/* Fade-in-down animation */
+@keyframes fade-in-down {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Slide-in-up animation */
+  @keyframes slide-in-up {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Animation utility classes */
+  .fade-in-down {
+    animation: fade-in-down 0.7s ease-out;
+  }
+  
+  .slide-in-up {
+    animation: slide-in-up 0.8s ease-out;
+  }
+  
+  .delay-200 {
+    animation-delay: 0.2s;
+  }
+  
+  .delay-400 {
+    animation-delay: 0.4s;
+  }
+  
