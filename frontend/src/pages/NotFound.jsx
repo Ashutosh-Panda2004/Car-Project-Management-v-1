@@ -1,5 +1,3 @@
-// frontend/src/pages/NotFound.jsx
-
 import React from 'react';
 import { Typography, Box, Button } from '@mui/material';
 import Navbar from '../components/Navbar'; // Adjust the path if necessary
