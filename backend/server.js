@@ -1,5 +1,3 @@
-// backend/server.js
-
 require('dotenv').config(); // Load environment variables
 const app = require('./app');
 const connectDB = require('./config/db');
