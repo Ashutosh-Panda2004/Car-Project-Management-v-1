@@ -48,9 +48,6 @@ A web application that allows users to manage car listings with full authenticat
         - authRoutes.js
         - carRoutes.js
     - *uploads*
-        - 1731513654946-sanjeevani.png
-        - 1731513855077-KxdKA9dT_codolio_card.png
-        - 1731514557916-ashutosh.jpeg
 ```
 
 ### **Frontend**
